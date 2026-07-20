@@ -1,0 +1,33 @@
+name: tinda_count
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.5
+  provider: ^6.0.5
+  flutter_native_splash: ^2.4.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_lints: ^6.0.0
+
+flutter_icons:
+  android: true
+  image_path: "assets/Logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo_foreground.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Logo.png
+
