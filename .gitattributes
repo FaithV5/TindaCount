@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+C:/flutter-workspace/App/tinda_count.zip filter=lfs diff=lfs merge=lfs -text
